@@ -101,6 +101,19 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Embedded Map Container */}
+          <div className="bg-white rounded-3xl overflow-hidden border border-[#F3E8D4] shadow-sm aspect-[16/9]">
+              <iframe
+                title="Luscious Layers Map Location"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3749.123456789!2d73.763456!3d20.005678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bddeb123456789%3A0x123456789!2sCollege+Road%2C+Nashik!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+              />
+          </div>
+
           {/* Quick Links */}
           <div>
             <h4 className="font-heading text-base font-bold text-[#111827] mb-4">
